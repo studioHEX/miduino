@@ -33,3 +33,29 @@ Introducing the Miduino_client, a small device that takes the values from Miduin
 
 Oh the possibilities are endless!
 
+The Arduino side of things are not very special in the ways of you having to do elaborate set-up. The only thing that is important
+is the way of formatting the serial output from Arduino to your computer.
+
+For example sake let's say you have 5 sensors attached to your Arduino and have them stored and updated in the variables:
+
+val0
+val1
+val2
+val3
+val4
+
+Serial.print(val0);
+Serial.print(" ");
+Serial.print(val1);
+Serial.print(" ");
+Serial.print(val2);
+Serial.print(" ");
+Serial.print(val3);
+Serial.print(" ");
+Serial.print(val4);
+Serial.println();
+
+In this way Arduino formats and outputs your sensor data as follows:
+
+23423 342 75 4564 976 6280 -> after the 5th value an end-of-line-character is interpreted and a new line is being plotted. If the sensor data is not output like this then
+Miduino will not be able to parse the data correctly and error might occur.
