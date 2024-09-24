@@ -46,4 +46,6 @@ I sincerely hope this will make the life of people easier so we can focus more o
 Bug report:
 *Macro not working : fixed
 *Serial error between Windows/MAC : fixed
+*MIDI not passed through Miduino_client : fixed
+*Small change in GUI Miduino to increase readability
 
