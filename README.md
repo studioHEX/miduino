@@ -42,3 +42,9 @@ closing off with an end-of-line-character. Which can either be '\n' or println()
 If the sensor data is not output like this then Miduino will not be able to parse the data correctly and error might occur.
 
 I sincerely hope this will make the life of people easier so we can focus more on creating and improving our workflows. 
+
+*
+Bug report:
+-Macro not working : fixed
+-Serial error between Windows/MAC : fixed
+*
